@@ -1,0 +1,6 @@
+Dockerfile
+docker-compose.yml
+.gitignore
+stack.env
+stack.env.dist
+requirements.in
