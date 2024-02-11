@@ -5,6 +5,9 @@ services:
     ports:
       - "8888:8000"
     volumes:
-      - .:/app
+      - cache:/enphase-cache
     env_file:
       - stack.env
+
+volumes:
+  cache:
