@@ -5,6 +5,6 @@ services:
     ports:
       - "8888:8000"
     volumes:
-      - .:/code
+      - .:/app
     env_file:
       - stack.env
